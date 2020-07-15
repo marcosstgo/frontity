@@ -1,39 +1,61 @@
 {
-  "errors": [],
+  "errors": [
+    "./node_modules/@frontity/core/src/client/index.tsx\nModule build failed (from ./node_modules/babel-loader/lib/index.js):\nError: ENOENT: no such file or directory, open 'C:\\Users\\marc0\\OneDrive\\Desktop\\nubia\\frontity\\node_modules\\@frontity\\core\\src\\client\\index.tsx'\n @ ./build/bundling/entry-points/frontity/client.ts 1:0-46 1:484-490 1:521-1249 1:704-1248 1:720-756\n @ multi webpack-hot-middleware/client ./build/bundling/entry-points/frontity/client.ts",
+    "./node_modules/@frontity/html2react/src/index.ts\nModule build failed (from ./node_modules/babel-loader/lib/index.js):\nError: ENOENT: no such file or directory, open 'C:\\Users\\marc0\\OneDrive\\Desktop\\nubia\\frontity\\node_modules\\@frontity\\html2react\\src\\index.ts'\n @ ./build/bundling/entry-points/frontity/client.ts 1:265-338 1:439-467 1:521-1249 1:704-1248 1:1047-1088\n @ multi webpack-hot-middleware/client ./build/bundling/entry-points/frontity/client.ts",
+    "./node_modules/@frontity/tiny-router/src/index.ts\nModule build failed (from ./node_modules/babel-loader/lib/index.js):\nError: ENOENT: no such file or directory, open 'C:\\Users\\marc0\\OneDrive\\Desktop\\nubia\\frontity\\node_modules\\@frontity\\tiny-router\\src\\index.ts'\n @ ./build/bundling/entry-points/frontity/client.ts 1:190-265 1:409-438 1:521-1249 1:704-1248 1:963-1005\n @ multi webpack-hot-middleware/client ./build/bundling/entry-points/frontity/client.ts",
+    "./node_modules/@frontity/wp-source/src/index.ts\nModule build failed (from ./node_modules/babel-loader/lib/index.js):\nError: ENOENT: no such file or directory, open 'C:\\Users\\marc0\\OneDrive\\Desktop\\nubia\\frontity\\node_modules\\@frontity\\wp-source\\src\\index.ts'\n @ ./build/bundling/entry-points/frontity/client.ts 1:119-190 1:381-408 1:521-1249 1:704-1248 1:880-920\n @ multi webpack-hot-middleware/client ./build/bundling/entry-points/frontity/client.ts",
+    "(webpack)-hot-middleware/client.js\nModule build failed (from ./node_modules/babel-loader/lib/index.js):\nError: ENOENT: no such file or directory, open 'C:\\Users\\marc0\\OneDrive\\Desktop\\nubia\\frontity\\node_modules\\webpack-hot-middleware\\client.js'\n @ multi webpack-hot-middleware/client ./build/bundling/entry-points/frontity/client.ts frontity[0]",
+    "./packages/mars-theme/src/index.js\nModule build failed (from ./node_modules/babel-loader/lib/index.js):\nError: ENOENT: no such file or directory, open 'C:\\Users\\marc0\\OneDrive\\Desktop\\nubia\\frontity\\packages\\mars-theme\\src\\index.js'\n @ ./build/bundling/entry-points/frontity/client.ts 1:46-119 1:352-380 1:521-1249 1:704-1248 1:798-839\n @ multi webpack-hot-middleware/client ./build/bundling/entry-points/frontity/client.ts"
+  ],
   "warnings": [],
   "version": "4.43.0",
-  "hash": "c94e00bce5919f183ef9",
+  "hash": "6244a6999ae8f3d9706f",
   "publicPath": "/static/",
   "outputPath": "C:\\Users\\marc0\\OneDrive\\Desktop\\nubia\\frontity\\build\\static",
   "assetsByChunkName": {
-    "frontity": "frontity.module.js",
-    "list": "list.module.js"
+    "frontity": [
+      "frontity.module.js",
+      "frontity.f0cfef0c460231d16279.hot-update.js"
+    ]
   },
   "assets": [
     {
-      "name": "frontity.module.js",
-      "size": 5044420,
-      "chunks": [
-        "frontity"
-      ],
-      "chunkNames": [
-        "frontity"
-      ],
-      "info": {},
-      "emitted": true,
-      "isOverSizeLimit": true
+      "name": "f0cfef0c460231d16279.hot-update.json",
+      "size": 50,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {
+        "hotModuleReplacement": true,
+        "immutable": true
+      },
+      "emitted": false
     },
     {
-      "name": "list.module.js",
-      "size": 48161,
+      "name": "frontity.f0cfef0c460231d16279.hot-update.js",
+      "size": 9622,
       "chunks": [
-        "list"
+        "frontity"
       ],
       "chunkNames": [
-        "list"
+        "frontity"
+      ],
+      "info": {
+        "hotModuleReplacement": true,
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "frontity.module.js",
+      "size": 45942,
+      "chunks": [
+        "frontity"
+      ],
+      "chunkNames": [
+        "frontity"
       ],
       "info": {},
-      "emitted": true
+      "emitted": false
     }
   ],
   "filteredAssets": 0,
@@ -43,7 +65,8 @@
         "frontity"
       ],
       "assets": [
-        "frontity.module.js"
+        "frontity.module.js",
+        "frontity.f0cfef0c460231d16279.hot-update.js"
       ],
       "children": {},
       "childAssets": {}
@@ -55,17 +78,8 @@
         "frontity"
       ],
       "assets": [
-        "frontity.module.js"
-      ],
-      "children": {},
-      "childAssets": {}
-    },
-    "list": {
-      "chunks": [
-        "list"
-      ],
-      "assets": [
-        "list.module.js"
+        "frontity.module.js",
+        "frontity.f0cfef0c460231d16279.hot-update.js"
       ],
       "children": {},
       "childAssets": {}
@@ -74,7 +88,7 @@
   "logging": {
     "webpack.buildChunkGraph.visitModules": {
       "entries": [],
-      "filteredEntries": 5,
+      "filteredEntries": 2,
       "debug": false
     }
   },
