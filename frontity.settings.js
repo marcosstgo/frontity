@@ -2,9 +2,9 @@ const settings = {
   "name": "frontity",
   "state": {
     "frontity": {
-      "url": "https://test.frontity.org",
-      "title": "Test Frontity Blog",
-      "description": "WordPress installation for Frontity development"
+      "url": "https://marcossantiago.com",
+      "title": "Marcos Santiago Blog",
+      "description": "Marcos Santiago"
     }
   },
   "packages": [
@@ -45,7 +45,7 @@ const settings = {
       "name": "@frontity/wp-source",
       "state": {
         "source": {
-          "api": "https://test.frontity.org/wp-json"
+          "api": "https://marcossantiago.com/wp-json"
         }
       }
     },
